@@ -1,0 +1,5 @@
+courier_id,courier_name,vehicle_type,active_from,active_to,region
+10,Alex Rider,Bike,2024-01-01,,north
+11,Brooke Sky,Car,2024-03-15,,south
+12,Casey Night,Scooter,2024-05-10,,west
+13,Dee Lane,Truck,2024-02-01,,east

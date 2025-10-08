@@ -1,0 +1,6 @@
+customer_id,customer_name,email,city
+101,Alice Lee,alice@example.com,New York
+102,Bob Kim,bob@example.com,Boston
+103,Carla Diaz,carla@example.com,Chicago
+104,Diego Park,diego@example.com,Seattle
+105,Eve Sun,eve@example.com,Austin
