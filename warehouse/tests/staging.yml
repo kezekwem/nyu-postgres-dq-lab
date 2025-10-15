@@ -1,0 +1,19 @@
+tests:
+  - name: stg_orders_order_id_not_null
+    severity: error
+    sql: tests/staging/stg_orders_order_id_not_null.sql
+  - name: stg_orders_order_id_unique
+    severity: error
+    sql: tests/staging/stg_orders_order_id_unique.sql
+  - name: stg_orders_status_accepted_values
+    severity: warn
+    sql: tests/staging/stg_orders_status_accepted_values.sql
+  - name: stg_orders_restaurant_fk_relationships
+    severity: error
+    sql: tests/staging/stg_orders_restaurant_fk_relationships.sql
+  - name: stg_orders_courier_fk_relationships
+    severity: error
+    sql: tests/staging/stg_orders_courier_fk_relationships.sql
+  - name: stg_orders_delivery_minutes_nonnegative
+    severity: error
+    sql: tests/staging/stg_orders_delivery_minutes_nonnegative.sql

@@ -1,0 +1,16 @@
+tests:
+  - name: fct_deliveries_order_id_not_null
+    severity: error
+    sql: tests/marts/fct_deliveries_order_id_not_null.sql
+  - name: fct_deliveries_order_id_unique
+    severity: error
+    sql: tests/marts/fct_deliveries_order_id_unique.sql
+  - name: fct_deliveries_restaurant_fk_dim
+    severity: error
+    sql: tests/marts/fct_deliveries_restaurant_fk_dim.sql
+  - name: fct_deliveries_courier_fk_dim
+    severity: error
+    sql: tests/marts/fct_deliveries_courier_fk_dim.sql
+  - name: dim_courier_vehicle_type_accepted_values
+    severity: error
+    sql: tests/marts/dim_courier_vehicle_type_accepted_values.sql

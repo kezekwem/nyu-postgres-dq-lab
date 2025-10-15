@@ -1,0 +1,4 @@
+tests:
+  - name: test_dropoff_status_logic
+    severity: error
+    sql: tests/custom/test_dropoff_status_logic.sql
